@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Research & Innovation | Aegis Health Group</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+        
+        :root {
+            --brand-navy: #0f172a;
+            --brand-gold: #b45309;
+        }
+
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .research-card {
+            transition: all 0.3s ease;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .research-card:hover {
+            background: #ffffff;
+            border-top-color: #b45309;
+            transform: translateY(-2px);
+        }
+
+        .journal-tag {
+            background: #f1f5f9;
+            color: #475569;
+            padding: 4px 12px;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body class="bg-[#fcfcfd] text-slate-900">
+
+    <div class="bg-red-600 text-white py-2 text-center text-xs font-bold tracking-widest uppercase">
+        Emergency Department: Open 24/7 • Critical Care Hotline: (555) 900-1000
+    </div>
+
+    <nav class="glass-nav sticky top-0 z-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center">
+                    <div class="mr-10">
+                        <a href="index.html" class="text-2xl font-bold tracking-tighter text-slate-900 uppercase">
+                            Apellido<span class="text-amber-700">Health</span>
+                        </a>
+                    </div>
+                    <div class="hidden lg:flex space-x-10 text-sm font-semibold text-slate-500 uppercase tracking-wider">
+                        <a href="index.html" class="hover:text-amber-700 transition">Home</a>
+                        <a href="institutes.html" class="hover:text-amber-700 transition">Institutes</a>
+                        <a href="research.html" class="text-amber-700 transition">Research</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="#" class="text-sm font-bold border-b-2 border-amber-700 pb-1">Refer a Patient</a>
+                    <a href="#" class="bg-slate-900 text-white px-6 py-2.5 rounded-sm text-sm font-bold hover:bg-slate-800 transition">MyChart Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-24 pb-20 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="flex flex-col lg:flex-row items-end justify-between gap-8">
+                <div class="max-w-3xl">
+                    <div class="inline-block px-4 py-1.5 mb-6 bg-slate-900 rounded-full">
+                        <span class="text-white text-[10px] font-bold uppercase tracking-[0.2em]">Advancing Human Health</span>
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-bold text-slate-900 mb-6">Pioneering tomorrow's <span class="italic font-light text-slate-400">breakthroughs.</span></h1>
+                    <p class="text-xl text-slate-600 leading-relaxed">
+                        Aegis Health Group serves as a global hub for translational medicine, bridging the gap between laboratory discovery and patient bedside care.
+                    </p>
+                </div>
+                <div class="flex gap-12 border-l border-slate-200 pl-12 hidden lg:flex">
+                    <div>
+                        <div class="text-3xl font-bold text-amber-700 mb-1">$420M+</div>
+                        <div class="text-[10px] uppercase tracking-widest font-bold text-slate-400">Annual Research Budget</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-amber-700 mb-1">1,200+</div>
+                        <div class="text-[10px] uppercase tracking-widest font-bold text-slate-400">Active Clinical Trials</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-24">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <h2 class="text-xs font-bold uppercase tracking-[0.3em] text-amber-700 mb-12">Current Research Frontiers</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 border-l border-r border-slate-100">
+                <div class="research-card p-10 bg-slate-50/50">
+                    <h3 class="text-xl font-bold mb-4">Genomic Medicine</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">Decoding rare genetic markers to personalize oncology and pediatric care pathways.</p>
+                    <a href="#" class="text-xs font-bold flex items-center group">
+                        EXPLORE LAB <i class="fa-solid fa-chevron-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+                <div class="research-card p-10 bg-white">
+                    <h3 class="text-xl font-bold mb-4">Neural Prosthetics</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">Developing brain-computer interfaces to restore mobility in spinal cord injury patients.</p>
+                    <a href="#" class="text-xs font-bold flex items-center group">
+                        EXPLORE LAB <i class="fa-solid fa-chevron-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+                <div class="research-card p-10 bg-slate-50/50">
+                    <h3 class="text-xl font-bold mb-4">Immunotherapy</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">Engineering T-cells to identify and neutralize resistant solid-tumor pathologies.</p>
+                    <a href="#" class="text-xs font-bold flex items-center group">
+                        EXPLORE LAB <i class="fa-solid fa-chevron-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+                <div class="research-card p-10 bg-white">
+                    <h3 class="text-xl font-bold mb-4">Regenerative Bio</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">Utilizing 3D-bioprinting to create viable vascular structures for organ replacement.</p>
+                    <a href="#" class="text-xs font-bold flex items-center group">
+                        EXPLORE LAB <i class="fa-solid fa-chevron-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-900 py-24 text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-8 leading-tight">Access the next generation of therapies through Clinical Trials.</h2>
+                    <p class="text-slate-400 text-lg mb-10">We believe every patient should have access to tomorrow's medicine today. Browse our searchable database of open Phase I–IV trials.</p>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-amber-700/20 flex items-center justify-center text-amber-500 mt-1">
+                                <i class="fa-solid fa-search text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Searchable Database</h4>
+                                <p class="text-sm text-slate-500">Filter by condition, phase, or location across the Aegis network.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-amber-700/20 flex items-center justify-center text-amber-500 mt-1">
+                                <i class="fa-solid fa-user-shield text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Patient Safety First</h4>
+                                <p class="text-sm text-slate-500">Rigorous IRB oversight ensures the highest ethical standards in all studies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="mt-12 bg-amber-700 px-8 py-4 font-bold rounded-sm hover:bg-amber-800 transition">Browse Active Trials</button>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1579152276503-0854823c604e?auto=format&fit=crop&q=80&w=1000" class="rounded-sm shadow-2xl grayscale hover:grayscale-0 transition duration-700" alt="Researcher">
+                    <div class="absolute -bottom-6 -right-6 bg-white p-8 text-slate-900 max-w-xs shadow-xl hidden md:block">
+                        <span class="journal-tag mb-4 inline-block">Featured Publication</span>
+                        <p class="text-sm font-bold italic mb-4">"Single-cell analysis of tumor microenvironments in metastatic melanoma."</p>
+                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Nature Medicine • 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+            <h2 class="text-4xl font-bold mb-4">Investigator Resources</h2>
+            <p class="text-slate-500 mb-16">Supporting the global scientific community with infrastructure and funding.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 border border-slate-200 text-left">
+                    <h4 class="font-bold text-lg mb-4">Core Facilities</h4>
+                    <p class="text-sm text-slate-500 mb-6">Access to high-throughput sequencing, proteomics, and advanced imaging suites.</p>
+                    <a href="#" class="text-amber-700 text-xs font-bold border-b border-amber-700 pb-1">Facility Directory</a>
+                </div>
+                <div class="p-8 border border-slate-200 text-left">
+                    <h4 class="font-bold text-lg mb-4">Research Grants</h4>
+                    <p class="text-sm text-slate-500 mb-6">Internal seed funding and guidance for NIH/NSF grant applications.</p>
+                    <a href="#" class="text-amber-700 text-xs font-bold border-b border-amber-700 pb-1">Funding Calendar</a>
+                </div>
+                <div class="p-8 border border-slate-200 text-left">
+                    <h4 class="font-bold text-lg mb-4">Office of Technology</h4>
+                    <p class="text-sm text-slate-500 mb-6">Bridging the gap between scientific discovery and commercial licensing.</p>
+                    <a href="#" class="text-amber-700 text-xs font-bold border-b border-amber-700 pb-1">Tech Transfer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-slate-200 pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div>
+                    <span class="text-xl font-bold tracking-tighter uppercase mb-6 block">
+                        Aegis<span class="text-amber-700">Health</span>
+                    </span>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        1200 Medical Plaza Drive<br>
+                        Boston, MA 02115<br>
+                        (555) 123-4567
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest mb-6 text-slate-400">Resources</h4>
+                    <ul class="text-sm text-slate-500 space-y-4">
+                        <li><a href="#" class="hover:text-amber-700">Library Services</a></li>
+                        <li><a href="#" class="hover:text-amber-700">IRB Guidelines</a></li>
+                        <li><a href="#" class="hover:text-amber-700">Ethics Committee</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest mb-6 text-slate-400">Collaboration</h4>
+                    <ul class="text-sm text-slate-500 space-y-4">
+                        <li><a href="#" class="hover:text-amber-700">Industry Partners</a></li>
+                        <li><a href="#" class="hover:text-amber-700">Academic Exchange</a></li>
+                        <li><a href="#" class="hover:text-amber-700">Sabbaticals</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest mb-6 text-slate-400">Impact</h4>
+                    <ul class="text-sm text-slate-500 space-y-4">
+                        <li><a href="#" class="hover:text-amber-700">Annual Report</a></li>
+                        <li><a href="#" class="hover:text-amber-700">Giving to Research</a></li>
+                        <li><a href="#" class="hover:text-amber-700">Success Stories</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-100 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-xs text-slate-400">© 2026 Aegis Health Group. All Rights Reserved. Accredited by the Joint Commission.</p>
+                <div class="flex space-x-6 text-slate-400 text-lg">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
